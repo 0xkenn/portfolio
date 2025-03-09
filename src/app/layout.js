@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
            disableTransitionOnChange
       >
         <Header/>
-        <Ripple mainCircleSize={432} className="-z-10" />
+        <Ripple mainCircleSize={432} className="z-10 overflow-hidden" />
        {children}
         <div className="fixed -z-10 inset-0 h-full w-full bg-[linear-gradient(to_right,#73737320_1px,transparent_1px),linear-gradient(to_bottom,#73737320_1px,transparent_1px)] bg-[size:20px_20px]" />
         <Socials/>

@@ -24,7 +24,7 @@ const Header = () => {
 
 
   return (
-    <header className={`fixed top-0 flex w-full justify-center ${
+    <header className={`fixed top-0 flex w-screen justify-center ${
         scrolled
           ? "border border-b-[#0c0a091a] bg-background/30 shadow-md backdrop-blur-sm dark:border-b-[#fafaf91a]"
           : "bg-transparent"

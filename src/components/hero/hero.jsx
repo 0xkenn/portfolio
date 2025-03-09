@@ -5,9 +5,9 @@ import SoftText from '../fonts/soft-text'
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden w-[70%] lg:mb-10" id="home">
-    <div className="mx-auto max-w-screen-xl px-4 pt-20 pb-8 lg:px-12 lg:pt-40 lg:pb-24">
-      <div className="flex flex-col items-center pt-60">
+<section className="relative overflow-hidden" id="home">
+<div className="mx-auto max-w-screen-xl px-4 pt-20 pb-8 lg:px-12 lg:pt-40 lg:pb-24">
+      <div className="flex flex-col items-center lg:pt-60">
 
         <BlurFade duration={0.25}> 
           <p className='font-extrabold lg:text-[.8rem] md:text-[.7rem] text-[.5rem]'>HI, MY NAME IS</p>
