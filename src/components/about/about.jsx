@@ -34,8 +34,10 @@ const About = () => {
     <div className="flex flex-row mt-6">
       <div className="w-1/4">
         <p>Databases</p>
+       
       </div>
       <div className="w-2/5 ml-10 grid grid-cols-5 gap-4">
+      <p>website building in progress</p>
         <DbList/>
       </div>
       
